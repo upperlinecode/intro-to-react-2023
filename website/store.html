@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello!</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="Nav">
+      <nav>
+        <a href="./index.html">
+          <div><p>Home</p></div>
+        </a>
+        <a href="./store.html">
+          <div><p>Store</p></div>
+        </a>
+        <a href="./about.html"
+          ><div><p>About</p></div>
+        </a>
+      </nav>
+    </section>
+    <section class="Hero">
+      <h1>Cool's Kitchen</h1>
+    </section>
+    <section class="Main">
+      <h2>Featured Items</h2>
+      <div class="shop-tile-container">
+        <div class="shop-tile">
+          <h3>Smoothie</h3>
+          <p>A delicious strawberry and banana smoothie</p>
+          <div class="bottom-row">
+            <p class="cost">$9.95</p>
+            <button class="add-item" data-item-name="" data-item-cost="">
+              Add to Order
+            </button>
+          </div>
+        </div>
+        <div class="shop-tile">
+          <h3>Pizza</h3>
+          <p>A tasty pepperoni slice</p>
+          <div class="bottom-row">
+            <p class="cost">$2.95</p>
+            <button class="add-item" data-item-name="" data-item-cost="">
+              Add to Order
+            </button>
+          </div>
+        </div>
+        <div class="shop-tile">
+          <h3>Burger</h3>
+          <p>A fresh-never-frozen patty with all the best toppings</p>
+          <div class="bottom-row">
+            <p class="cost">$5.95</p>
+            <button class="add-item" data-item-name="" data-item-cost="">
+              Add to Order
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="shop-tile total">
+        <h3>Your Order</h3>
+        <p id="items"></p>
+        <p>Total Cost: $
+          <span class="cost" id="total-cost"></span>
+        </p>
+        </div>
+      </div>
+    </section>
+    <section class="Footer">
+      <div><p>Thanks for visiting!</p></div>
+    </section>
+  </body>
+</html>
